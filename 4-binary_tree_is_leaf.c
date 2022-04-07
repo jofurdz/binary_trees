@@ -1,9 +1,13 @@
 #include "binary_trees.h"
 /**
- * @brief 
- * 
+ * binary_tree_is_leaf - checks if node is leaf
+ * @node: node to be checked
+ * Return: 1 or 0 if NULL
  */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
+	if (node == NULL || node->left != NULL || node->right != NULL)
+		return (0);
 
+	return (1);
 }
