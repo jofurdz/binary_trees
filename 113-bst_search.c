@@ -1,11 +1,13 @@
 #include "binary_trees.h"
 /**
- * @brief 
- * 
+ * bst_search - searcches binary search tree
+ * @tree: tree to be searched
+ * @value: value to be stored in new node
+ * Return: pointer to new node
  */
 bst_t *bst_search(const bst_t *tree, int value)
 {
-    bst_t *tmp;
+	bst_t *tmp;
 
 	tmp = (bst_t *)tree;
 	while (tmp)

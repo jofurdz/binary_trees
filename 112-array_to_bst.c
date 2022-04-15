@@ -1,7 +1,9 @@
 #include "binary_trees.h"
 /**
- * @brief 
- * 
+ * array_to_bst - converts array to binary search tree
+ * @array: array to be converted
+ * @size: size of array
+ * Return: pointer to the root node of the BST
  */
 bst_t *array_to_bst(int *array, size_t size)
 {
